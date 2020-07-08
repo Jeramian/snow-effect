@@ -9,6 +9,8 @@ function setup() {
 function draw() {
   background(0);
   snow.push(new snowFlake());
+  
+  text('Lauren S', height/w, width/2);
 
   for (flake of snow) {
     flake.applyForce(gravity);
