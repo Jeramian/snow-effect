@@ -10,6 +10,8 @@ function draw() {
   background(0);
   snow.push(new snowFlake());
   
+  fill(255,0,0)
+  textSize(60);
   text('Lauren S', height/w, width/2);
 
   for (flake of snow) {
